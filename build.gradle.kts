@@ -19,7 +19,6 @@ java {
 }
 
 dependencies {
-    implementation("com.igormaznitsa:jbbp:2.0.4")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4")
     implementation("io.github.microutils:kotlin-logging:3.0.3")
     testImplementation(kotlin("test"))
@@ -46,9 +45,8 @@ publishing {
             }
 
             pom {
-                name.set("Refrakt")
-                description.set("A Kotlin implementation of the Lifx LAN protocol")
-                url.set("http://www.example.com/library")
+                name.set("Act")
+                description.set("A Kotlin Actor Framework")
 
                 licenses {
                     license {
