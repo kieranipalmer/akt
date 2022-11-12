@@ -5,6 +5,7 @@ plugins {
     id("org.jlleitschuh.gradle.ktlint") version "11.0.0"
     id("org.jetbrains.dokka") version "1.7.20"
     `maven-publish`
+    `java-library`
 }
 
 group = "dev.shanty"
@@ -19,7 +20,7 @@ java {
 }
 
 dependencies {
-    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4")
+    api("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4")
     implementation("io.github.microutils:kotlin-logging:3.0.3")
     testImplementation(kotlin("test"))
 }
