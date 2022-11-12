@@ -3,12 +3,13 @@ package dev.shanty.akt.actor.manager.local
 import dev.shanty.akt.actor.Actor
 import dev.shanty.akt.actor.ActorBasicImpl
 import dev.shanty.akt.actor.manager.ActorManager
+import dev.shanty.akt.actor.manager.ActorManagerContextElement
 import kotlinx.coroutines.SupervisorJob
 import kotlinx.coroutines.channels.Channel
 import kotlin.coroutines.CoroutineContext
 
 class LocalActorManager(context: CoroutineContext) : ActorManager {
-    private val actorContext = SupervisorJob() + context
+    private val actorContext = SupervisorJob() + context + ActorManagerContextElement(this)
 
     // TODO This should really be a concurrency safe structure or another actor
     private val uniqueActors = mutableMapOf<String, Actor<*, *>>()
