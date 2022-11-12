@@ -10,7 +10,7 @@ import kotlin.coroutines.CoroutineContext
 class LocalActorManager(context: CoroutineContext) : ActorManager {
     private val actorContext = SupervisorJob() + context
 
-    //TODO This should really be a concurrency safe structure or another actor
+    // TODO This should really be a concurrency safe structure or another actor
     private val uniqueActors = mutableMapOf<String, Actor<*, *>>()
 
     override fun <TIN, TOUT> startActor(

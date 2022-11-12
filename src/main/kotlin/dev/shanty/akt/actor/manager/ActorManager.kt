@@ -1,9 +1,7 @@
 package dev.shanty.akt.actor.manager
 
 import dev.shanty.akt.actor.Actor
-import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.channels.Channel
-import kotlin.coroutines.CoroutineContext
 
 interface ActorManager {
     fun <TIN, TOUT> startActor(
