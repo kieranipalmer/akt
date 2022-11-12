@@ -1,0 +1,31 @@
+$dokka.format:gfm-v1
+$dokka.linkExtension:md
+$dokka.location:dev.shanty.akt.actor.manager.local////PointingToDeclaration/akt/dev.shanty.akt.actor.manager.local/index.md
+$dokka.location:dev.shanty.akt.actor.manager.local//localActorSystem/#kotlin.coroutines.SuspendFunction1[kotlinx.coroutines.CoroutineScope,kotlin.Unit]/PointingToDeclaration/akt/dev.shanty.akt.actor.manager.local/local-actor-system.md
+$dokka.location:dev.shanty.akt.actor.manager.local/LocalActorManager///PointingToDeclaration/akt/dev.shanty.akt.actor.manager.local/-local-actor-manager/index.md
+$dokka.location:dev.shanty.akt.actor.manager.local/LocalActorManager/LocalActorManager/#kotlin.coroutines.CoroutineContext/PointingToDeclaration/akt/dev.shanty.akt.actor.manager.local/-local-actor-manager/-local-actor-manager.md
+$dokka.location:dev.shanty.akt.actor.manager.local/LocalActorManager/startActor/#kotlin.Function0[kotlinx.coroutines.channels.Channel[TypeParam(bounds=[kotlin.Any?])]]#kotlin.Function0[kotlinx.coroutines.channels.Channel[TypeParam(bounds=[kotlin.Any?])]]#kotlin.coroutines.SuspendFunction2[dev.shanty.akt.actor.Actor[TypeParam(bounds=[kotlin.Any?]),TypeParam(bounds=[kotlin.Any?])],TypeParam(bounds=[kotlin.Any?]),kotlin.Unit]/PointingToDeclaration/akt/dev.shanty.akt.actor.manager.local/-local-actor-manager/start-actor.md
+$dokka.location:dev.shanty.akt.actor.manager.local/LocalActorManager/startUniqueActorByName/#kotlin.String#kotlin.Function0[kotlinx.coroutines.channels.Channel[TypeParam(bounds=[kotlin.Any?])]]#kotlin.Function0[kotlinx.coroutines.channels.Channel[TypeParam(bounds=[kotlin.Any?])]]#kotlin.coroutines.SuspendFunction2[dev.shanty.akt.actor.Actor[TypeParam(bounds=[kotlin.Any?]),TypeParam(bounds=[kotlin.Any?])],TypeParam(bounds=[kotlin.Any?]),kotlin.Unit]/PointingToDeclaration/akt/dev.shanty.akt.actor.manager.local/-local-actor-manager/start-unique-actor-by-name.md
+$dokka.location:dev.shanty.akt.actor.manager////PointingToDeclaration/akt/dev.shanty.akt.actor.manager/index.md
+$dokka.location:dev.shanty.akt.actor.manager//actorManager/kotlin.coroutines.CoroutineContext#/PointingToDeclaration/akt/dev.shanty.akt.actor.manager/actor-manager.md
+$dokka.location:dev.shanty.akt.actor.manager//actorManager/kotlinx.coroutines.CoroutineScope#/PointingToDeclaration/akt/dev.shanty.akt.actor.manager/actor-manager.md
+$dokka.location:dev.shanty.akt.actor.manager//startActorSystem/#dev.shanty.akt.actor.manager.ActorManager#kotlin.coroutines.SuspendFunction1[kotlinx.coroutines.CoroutineScope,kotlin.Unit]/PointingToDeclaration/akt/dev.shanty.akt.actor.manager/start-actor-system.md
+$dokka.location:dev.shanty.akt.actor.manager/ActorManager///PointingToDeclaration/akt/dev.shanty.akt.actor.manager/-actor-manager/index.md
+$dokka.location:dev.shanty.akt.actor.manager/ActorManager/startActor/#kotlin.Function0[kotlinx.coroutines.channels.Channel[TypeParam(bounds=[kotlin.Any?])]]#kotlin.Function0[kotlinx.coroutines.channels.Channel[TypeParam(bounds=[kotlin.Any?])]]#kotlin.coroutines.SuspendFunction2[dev.shanty.akt.actor.Actor[TypeParam(bounds=[kotlin.Any?]),TypeParam(bounds=[kotlin.Any?])],TypeParam(bounds=[kotlin.Any?]),kotlin.Unit]/PointingToDeclaration/akt/dev.shanty.akt.actor.manager/-actor-manager/start-actor.md
+$dokka.location:dev.shanty.akt.actor.manager/ActorManager/startUniqueActorByName/#kotlin.String#kotlin.Function0[kotlinx.coroutines.channels.Channel[TypeParam(bounds=[kotlin.Any?])]]#kotlin.Function0[kotlinx.coroutines.channels.Channel[TypeParam(bounds=[kotlin.Any?])]]#kotlin.coroutines.SuspendFunction2[dev.shanty.akt.actor.Actor[TypeParam(bounds=[kotlin.Any?]),TypeParam(bounds=[kotlin.Any?])],TypeParam(bounds=[kotlin.Any?]),kotlin.Unit]/PointingToDeclaration/akt/dev.shanty.akt.actor.manager/-actor-manager/start-unique-actor-by-name.md
+$dokka.location:dev.shanty.akt.actor.manager/NoActorManagerRegisteredException///PointingToDeclaration/akt/dev.shanty.akt.actor.manager/-no-actor-manager-registered-exception/index.md
+$dokka.location:dev.shanty.akt.actor.manager/NoActorManagerRegisteredException/NoActorManagerRegisteredException/#/PointingToDeclaration/akt/dev.shanty.akt.actor.manager/-no-actor-manager-registered-exception/-no-actor-manager-registered-exception.md
+$dokka.location:dev.shanty.akt.actor////PointingToDeclaration/akt/dev.shanty.akt.actor/index.md
+$dokka.location:dev.shanty.akt.actor//actor/kotlinx.coroutines.CoroutineScope#kotlin.Function0[kotlinx.coroutines.channels.Channel[TypeParam(bounds=[kotlin.Any?])]]#kotlin.Function0[kotlinx.coroutines.channels.Channel[TypeParam(bounds=[kotlin.Any?])]]#kotlin.coroutines.SuspendFunction2[dev.shanty.akt.actor.Actor[TypeParam(bounds=[kotlin.Any?]),TypeParam(bounds=[kotlin.Any?])],TypeParam(bounds=[kotlin.Any?]),kotlin.Unit]/PointingToDeclaration/akt/dev.shanty.akt.actor/actor.md
+$dokka.location:dev.shanty.akt.actor/Actor///PointingToDeclaration/akt/dev.shanty.akt.actor/-actor/index.md
+$dokka.location:dev.shanty.akt.actor/Actor/emit/#TypeParam(bounds=[kotlin.Any?])/PointingToDeclaration/akt/dev.shanty.akt.actor/-actor/emit.md
+$dokka.location:dev.shanty.akt.actor/Actor/outbox/#/PointingToDeclaration/akt/dev.shanty.akt.actor/-actor/outbox.md
+$dokka.location:dev.shanty.akt.actor/Actor/sendTo/#TypeParam(bounds=[kotlin.Any?])/PointingToDeclaration/akt/dev.shanty.akt.actor/-actor/send-to.md
+$dokka.location:dev.shanty.akt////PointingToDeclaration/akt/dev.shanty.akt/index.md
+$dokka.location:dev.shanty.akt//main/#/PointingToDeclaration/akt/dev.shanty.akt/main.md
+$dokka.location:dev.shanty.akt//runLocalActorSystem/#kotlin.coroutines.SuspendFunction1[kotlinx.coroutines.CoroutineScope,kotlin.Unit]/PointingToDeclaration/akt/dev.shanty.akt/run-local-actor-system.md
+dev.shanty.akt
+dev.shanty.akt.actor
+dev.shanty.akt.actor.manager
+dev.shanty.akt.actor.manager.local
+
