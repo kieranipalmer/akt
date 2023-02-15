@@ -4,12 +4,18 @@ import dev.shanty.akt.actor.Actor
 import dev.shanty.akt.actor.ActorBasicImpl
 import dev.shanty.akt.actor.manager.ActorManager
 import dev.shanty.akt.actor.manager.ActorManagerContextElement
+import kotlinx.coroutines.CoroutineExceptionHandler
 import kotlinx.coroutines.SupervisorJob
 import kotlinx.coroutines.channels.Channel
+import kotlinx.coroutines.job
+import org.slf4j.Logger
+import org.slf4j.LoggerFactory
 import kotlin.coroutines.CoroutineContext
 
-class LocalActorManager(context: CoroutineContext) : ActorManager {
-    private val actorContext = SupervisorJob() + context + ActorManagerContextElement(this)
+class LocalActorManager(context: CoroutineContext, private val logger: Logger = LoggerFactory.getLogger(LocalActorManager::class.java)) : ActorManager {
+    private val actorContext = SupervisorJob(context.job) + CoroutineExceptionHandler { _, throwable ->
+        logger.error("Actor failed", throwable)
+    } + context + ActorManagerContextElement(this)
 
     // TODO This should really be a concurrency safe structure or another actor
     private val uniqueActors = mutableMapOf<String, Actor<*, *>>()
