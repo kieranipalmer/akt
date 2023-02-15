@@ -6,7 +6,7 @@
 
 | Name | Summary |
 |---|---|
-| [LocalActorManager](-local-actor-manager/index.md) | [jvm]<br>class [LocalActorManager](-local-actor-manager/index.md)(context: [CoroutineContext](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.coroutines/-coroutine-context/index.html)) : [ActorManager](../dev.shanty.akt.actor.manager/-actor-manager/index.md) |
+| [LocalActorManager](-local-actor-manager/index.md) | [jvm]<br>class [LocalActorManager](-local-actor-manager/index.md)(context: [CoroutineContext](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.coroutines/-coroutine-context/index.html), logger: Logger = LoggerFactory.getLogger(LocalActorManager::class.java)) : [ActorManager](../dev.shanty.akt.actor.manager/-actor-manager/index.md) |
 
 ## Functions
 

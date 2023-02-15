@@ -3,4 +3,4 @@
 # LocalActorManager
 
 [jvm]\
-fun [LocalActorManager](-local-actor-manager.md)(context: [CoroutineContext](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.coroutines/-coroutine-context/index.html))
+fun [LocalActorManager](-local-actor-manager.md)(context: [CoroutineContext](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.coroutines/-coroutine-context/index.html), logger: Logger = LoggerFactory.getLogger(LocalActorManager::class.java))

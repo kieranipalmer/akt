@@ -3,13 +3,13 @@
 # LocalActorManager
 
 [jvm]\
-class [LocalActorManager](index.md)(context: [CoroutineContext](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.coroutines/-coroutine-context/index.html)) : [ActorManager](../../dev.shanty.akt.actor.manager/-actor-manager/index.md)
+class [LocalActorManager](index.md)(context: [CoroutineContext](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.coroutines/-coroutine-context/index.html), logger: Logger = LoggerFactory.getLogger(LocalActorManager::class.java)) : [ActorManager](../../dev.shanty.akt.actor.manager/-actor-manager/index.md)
 
 ## Constructors
 
 | | |
 |---|---|
-| [LocalActorManager](-local-actor-manager.md) | [jvm]<br>fun [LocalActorManager](-local-actor-manager.md)(context: [CoroutineContext](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.coroutines/-coroutine-context/index.html)) |
+| [LocalActorManager](-local-actor-manager.md) | [jvm]<br>fun [LocalActorManager](-local-actor-manager.md)(context: [CoroutineContext](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.coroutines/-coroutine-context/index.html), logger: Logger = LoggerFactory.getLogger(LocalActorManager::class.java)) |
 
 ## Functions
 
